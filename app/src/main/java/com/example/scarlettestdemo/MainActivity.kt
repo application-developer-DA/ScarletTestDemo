@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val testMessage = "My Test Message"
+        testMessage.replace("asdf", "qwerty")
         val toast = Toast.makeText(this, testMessage, Toast.LENGTH_SHORT)
         toast.show()
     }
